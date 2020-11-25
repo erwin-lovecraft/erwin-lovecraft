@@ -2,4 +2,4 @@
 ## I like technology and programing 💥
    I can use any programming language and any framework 👍 <br>
 and <br>
-   😍😍I like Mechanical Keyboard😍😍 
+   😍😍I like Mechanical Keyboard and setup workspace😍😍 
