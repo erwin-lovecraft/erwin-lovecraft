@@ -17,7 +17,7 @@ func main() {
 
 func GetBio() Bio {
     return Bio{
-	"- ⚡ Quick bio:":                    "I like technology and programing, I like Mechanical Keyboard and setup workspace💥",
+	"- ⚡ Quick bio:":                     "I like technology and programing, I like Mechanical Keyboard and setup workspace💥",
 	"- 🔭 I’m currently working on":      "College students",
 	"- 🌱 I’m currently learning":        "Jhipster stack, Spring framework, Angular and React,",
 	"- 👯 I’m looking to collaborate on": "Golang, Rustlang, Java, JS/TS, Java, C# and related projects",
