@@ -14,8 +14,8 @@
 
 <h3>🛠 Tech Stack</h3>
 
-- 💻 &nbsp; Go | TypeScript | Java | C++  
-- 🌐 &nbsp; Angular | HTML | CSS | JavaScript | Bootstrap | Material
+- 💻 &nbsp; Go | TypeScript | Java | C/C++ | C#
+- 🌐 &nbsp; Angular | React | HTML | CSS | JavaScript | Bootstrap | Material
 - 🛢 &nbsp; MySQL | Sql Server | Postgresql | Firebase | Neo4j | Cassandra 
 - 🔧 &nbsp; Intelij IDEA | Visual Studio code | Vim | Git
 - 🖥 &nbsp; Ubuntu, Docker
