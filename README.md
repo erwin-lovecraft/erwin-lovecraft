@@ -18,7 +18,7 @@
 - 🌐 &nbsp; Angular | React | HTML | CSS | JavaScript | Bootstrap | Material
 - 🛢 &nbsp; MySQL | Sql Server | Postgresql | Firebase | Neo4j | Cassandra 
 - 🔧 &nbsp; Intelij IDEA | Visual Studio code | Vim | Git
-- 🖥 &nbsp; Ubuntu, Docker
+- 🖥 &nbsp; Manjaro | Docker | Kubernetes
 
 </br>
 
