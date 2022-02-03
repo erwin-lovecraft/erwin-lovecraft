@@ -22,7 +22,7 @@
 
 </br>
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=witcher-vae&layout=compact&text_color=daf7dc&bg_color=151515)](https://github.com/witcher-vae)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=bugcher&layout=compact&text_color=daf7dc&bg_color=151515)](https://github.com/bugcher)
 
 
 <h3> 🤝🏻 Connect with Me </h3>
