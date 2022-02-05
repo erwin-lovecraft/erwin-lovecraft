@@ -4,8 +4,7 @@
 <h3> 👨🏻‍💻 About Me </h3>
 
 - ⚡ &nbsp; I like technology and programing, I also like Mechanical Keyboard and setup workspace💥
-- 🔭 &nbsp; I’m currently learning Web Application Development
-- 🤔 &nbsp; Exploring new technologies and developing software solutions.
+- 🔭 &nbsp; I am currently a web application developer.
 - 🎓 &nbsp; Studying write test with Cypress and Go language.
 - 🌱 &nbsp; Enthusiast in cyber Security and write test.
 - ✍️ &nbsp; Watching movie, custom mechanical keyboard, and setup my workspace
@@ -21,8 +20,7 @@
 
 </br>
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=bugcher&layout=compact&text_color=daf7dc&bg_color=151515)](https://github.com/bugcher)
-
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=virsavik&layout=compact&text_color=daf7dc&bg_color=151515)](https://github.com/virsavik)
 
 <h3> 🤝🏻 Connect with Me </h3>
 
