@@ -3,22 +3,21 @@
 
 <h3> 👨🏻‍💻 About Me </h3>
 
-- ⚡ &nbsp; I like technology and programing, I like Mechanical Keyboard and setup workspace💥
+- ⚡ &nbsp; I like technology and programing, I also like Mechanical Keyboard and setup workspace💥
 - 🔭 &nbsp; I’m currently learning Web Application Development
 - 🤔 &nbsp; Exploring new technologies and developing software solutions.
-- 🎓 &nbsp; Studying write test with Cypress, and Graph Database Neo4j.
-- 💼 &nbsp; Web developer and back-end web developer.
-- 🌱 &nbsp; Enthusiast in cyber Security and write test .
+- 🎓 &nbsp; Studying write test with Cypress and Go language.
+- 🌱 &nbsp; Enthusiast in cyber Security and write test.
 - ✍️ &nbsp; Watching movie, custom mechanical keyboard, and setup my workspace
 - ☕ &nbsp; I belive, a perfect cup of tea can be the ultimate solution for any stress. 
 
 <h3>🛠 Tech Stack</h3>
 
-- 💻 &nbsp; Go | TypeScript | Java | C/C++ | C#
-- 🌐 &nbsp; Angular | React | HTML | CSS | JavaScript | Bootstrap | Material
-- 🛢 &nbsp; MySQL | Sql Server | Postgresql | Firebase | Neo4j | Cassandra 
-- 🔧 &nbsp; Intelij IDEA | Visual Studio code | Vim | Git
-- 🖥 &nbsp; Manjaro | Docker | Kubernetes
+- 💻 &nbsp; Go | TypeScript | Java |  C# | Rust
+- 🌐 &nbsp; Angular | React | Gin | Spring Boot
+- 🛢 &nbsp; MySQL | Sql Server | Postgresql | Neo4J | Oracle 
+- 🔧 &nbsp; Intelij IDEA | Visual Studio code | Vim/NeoVim | Git
+- 🖥 &nbsp; Docker | Kubernetes
 
 </br>
 
