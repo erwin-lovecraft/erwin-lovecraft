@@ -4,17 +4,17 @@
 <h3> 👨🏻‍💻 About Me </h3>
 
 - ⚡ &nbsp; I like technology and programing, I also like Mechanical Keyboard and setup workspace💥
-- 🔭 &nbsp; I am currently a web application developer.
-- 🎓 &nbsp; Studying write test with Cypress and Go language.
-- 🌱 &nbsp; Enthusiast in cyber Security and write test.
-- ✍️ &nbsp; Watching movie, custom mechanical keyboard, and setup my workspace
+- 🔭 &nbsp; I am currently a Go language developer.
+- 🎓 &nbsp; Studying design pattern and application architecture.
+- 🌱 &nbsp; Enthusiast in programming.
+- ✍️ &nbsp; Customize mechanical keyboard, and setup my workspace
 - ☕ &nbsp; I belive, a perfect cup of tea can be the ultimate solution for any stress. 
 
 <h3>🛠 Tech Stack</h3>
 
 - 💻 &nbsp; Go | TypeScript | Java |  C# | Rust
 - 🌐 &nbsp; Angular | React | Gin | Spring Boot
-- 🛢 &nbsp; MySQL | Sql Server | Postgresql | Neo4J | Oracle 
+- 🛢 &nbsp; MySQL | Postgresql | Neo4J  
 - 🔧 &nbsp; Intelij IDEA | Visual Studio code | Vim/NeoVim | Git
 - 🖥 &nbsp; Docker | Kubernetes
 
