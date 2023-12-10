@@ -1,30 +1,53 @@
-<h2> Hey there! I'm DANG HUU LOC. :wave: </h2>
-<img align="right" alt="GIF" src="./gif/coding-man.gif" width="500"/>
+# Hey there! I'm DANG HUU LOC :wave:
 
-<h3> 👨🏻‍💻 About Me </h3>
+<a href="https://www.facebook.com/loc.yen.512/" target="_blank" rel="noopener noreferrer">![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white)</a>
+<a href="mailto:dhuuloc8818@gmail.com" target="_blank" rel="noopener noreferrer">![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)</a>
+<a href="www.linkedin.com/in/virsavik-dang" target="_blank" rel="noopener noreferrer">![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)</a>
+<a href="https://stackoverflow.com/users/14512647/loc-dang" target="_blank" rel="noopener noreferrer">![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white)
+</a>
 
-- ⚡ &nbsp; I like technology and programing, I also like Mechanical Keyboard and setup workspace💥
-- 🔭 &nbsp; I am currently a Go language developer.
-- 🎓 &nbsp; Studying design pattern and application architecture.
-- 🌱 &nbsp; Enthusiast in programming.
-- ✍️ &nbsp; Customize mechanical keyboard, and setup my workspace
-- ☕ &nbsp; I belive, a perfect cup of tea can be the ultimate solution for any stress. 
+```dart
+class Me implements Developer<FullStack> {
+  String name;
+  String alias;
+  int age;
+  List<String> interests;
+  Map<String, List<String>> skills;
+  
+  Me({
+    this.name = "Dang Huu Loc",
+    this.alias = "Virsavik",
+    this.age = 23,
+    this.interests = const [
+      "Programming",
+      "Mechanical Keyboard",
+      "Workspace setting up",
+      "New technologies",
+    ],
+    this.skills = const {
+      'Programming Language': ['Go', 'Java', 'JS/TS', 'Dart'],
+      'Framework': ['Flutter', 'SpringBoot', 'Next.js', 'Angular'],
+      'Database': ['Postgres', 'MySQL'],
+      'Platform': ['Docker', 'Azure', 'AWS', 'Kubernetes'],
+      'Tools': ['Git', 'Intellij IDEA', 'VS Code'],
+    },
+  });
 
-<h3>🛠 Tech Stack</h3>
 
-- 💻 &nbsp; Go | TypeScript | Java |  C# | Rust
-- 🌐 &nbsp; Angular | React | Gin | Spring Boot
-- 🛢 &nbsp; MySQL | Postgresql | Neo4J  
-- 🔧 &nbsp; Intelij IDEA | Visual Studio code | Vim/NeoVim | Git
-- 🖥 &nbsp; Docker | Kubernetes
+  @override
+  void code() {
+    print("$name is coding!");
+  }
 
-</br>
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=virsavik&layout=compact&text_color=daf7dc&bg_color=151515)](https://github.com/virsavik)
-
-<h3> 🤝🏻 Connect with Me </h3>
-
-<p align="center">
-&nbsp; <a href="https://www.facebook.com/loc.yen.512/" target="_blank" rel="noopener noreferrer"><img src="https://img.icons8.com/plasticine/100/000000/facebook.png" width="50" /></a>  
-&nbsp; <a href="mailto:dhuuloc8818@gmail.com" target="_blank" rel="noopener noreferrer"><img src="https://img.icons8.com/plasticine/100/000000/gmail.png"  width="50" /></a>
-</p>
+  @override
+  String toString() {
+    return '''
+    Me {
+      name: $name,
+      age: $age,
+      interests: $interests,
+      skills: $skills
+    }''';
+  }
+}
+```
