@@ -2,7 +2,7 @@
 
 <a href="https://www.facebook.com/loc.yen.512/" target="_blank" rel="noopener noreferrer">![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white)</a>
 <a href="mailto:dhuuloc8818@gmail.com" target="_blank" rel="noopener noreferrer">![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)</a>
-<a href="www.linkedin.com/in/virsavik-dang" target="_blank" rel="noopener noreferrer">![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)</a>
+<a href="https://www.linkedin.com/in/virsavik-dang" target="_blank" rel="noopener noreferrer">![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)</a>
 <a href="https://stackoverflow.com/users/14512647/loc-dang" target="_blank" rel="noopener noreferrer">![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white)
 </a>
 
