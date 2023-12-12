@@ -7,14 +7,14 @@
 </a>
 
 ```dart
-class Me implements Developer<FullStack> {
+class Person implements Developer<FullStack> {
   String name;
   String alias;
   int age;
   List<String> interests;
   Map<String, List<String>> skills;
   
-  Me({
+  Person({
     this.name = "Dang Huu Loc",
     this.alias = "Virsavik",
     this.age = 23,
@@ -40,14 +40,33 @@ class Me implements Developer<FullStack> {
   }
 
   @override
-  String toString() {
-    return '''
-    Me {
-      name: $name,
-      age: $age,
-      interests: $interests,
-      skills: $skills
-    }''';
+  void collaborateWithTeam() {
+    print("$name is collaborating with the team!");
+  }
+
+  @override
+  void performCodeReview() {
+    print("$name is participating in a code review!");
+  }
+
+  @override
+  void writeDocumentation() {
+    print("$name is writing documentation!");
+  }
+
+  @override
+  void keepLearning() {
+    print("$name is committed to continuous learning!");
+  }
+
+  @override
+  void optimizeCode() {
+    print("$name is optimizing code for performance!");
+  }
+
+  @override
+  void implementSecurityMeasures() {
+    print("$name is implementing security measures!");
   }
 }
 ```
