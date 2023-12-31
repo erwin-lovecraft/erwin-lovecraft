@@ -16,7 +16,7 @@ class Person implements Developer<FullStack> {
   
   Person({
     this.name = "Dang Huu Loc",
-    this.alias = "Virsavik",
+    this.alias = "Lorweth",
     this.age = 23,
     this.interests = const [
       "Programming",
@@ -27,46 +27,15 @@ class Person implements Developer<FullStack> {
     this.skills = const {
       'Programming Language': ['Go', 'Java', 'JS/TS', 'Dart'],
       'Framework': ['Flutter', 'SpringBoot', 'Next.js', 'Angular'],
-      'Database': ['Postgres', 'MySQL'],
+      'Database': ['Postgres', 'MySQL', 'MongoDB'],
       'Platform': ['Docker', 'Azure', 'AWS', 'Kubernetes'],
       'Tools': ['Git', 'Intellij IDEA', 'VS Code'],
     },
   });
 
-
   @override
   void code() {
     print("$name is coding!");
-  }
-
-  @override
-  void collaborateWithTeam() {
-    print("$name is collaborating with the team!");
-  }
-
-  @override
-  void performCodeReview() {
-    print("$name is participating in a code review!");
-  }
-
-  @override
-  void writeDocumentation() {
-    print("$name is writing documentation!");
-  }
-
-  @override
-  void keepLearning() {
-    print("$name is committed to continuous learning!");
-  }
-
-  @override
-  void optimizeCode() {
-    print("$name is optimizing code for performance!");
-  }
-
-  @override
-  void implementSecurityMeasures() {
-    print("$name is implementing security measures!");
   }
 }
 ```
