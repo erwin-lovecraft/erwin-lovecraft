@@ -1,4 +1,4 @@
-# Hey there! I'm DANG HUU LOC :wave:
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=24&duration=500&pause=500&multiline=true&repeat=false&random=false&width=435&height=60&lines=Hey+there!+I'm;DANG+HUU+LOC+%F0%9F%91%8B)](https://git.io/typing-svg)
 
 <a href="https://www.facebook.com/loc.yen.512/" target="_blank" rel="noopener noreferrer">![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white)</a>
 <a href="mailto:dhuuloc8818@gmail.com" target="_blank" rel="noopener noreferrer">![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)</a>
