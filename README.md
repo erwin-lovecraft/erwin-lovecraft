@@ -39,3 +39,5 @@ class Person implements Developer<FullStack> {
   }
 }
 ```
+
+\- 冥海无岸 -
