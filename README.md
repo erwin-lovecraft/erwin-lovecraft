@@ -16,7 +16,7 @@ class Person implements Developer<FullStack> {
   
   Person({
     this.name = "Dang Huu Loc",
-    this.alias = "Lorweth",
+    this.alias = "the-witcher-knight",
     this.age = 23,
     this.interests = const [
       "Programming",
