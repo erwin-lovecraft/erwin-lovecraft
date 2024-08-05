@@ -7,7 +7,7 @@
 </a>
 
 ```dart
-class Person implements Developer<FullStack> {
+class Person extends Developer {
   String name;
   String alias;
   int age;
@@ -34,8 +34,9 @@ class Person implements Developer<FullStack> {
   });
 
   @override
-  void code() {
-    print("$name is coding!");
+  void code<T extends PC>(T thePC) {
+    thePC.open();
+    print("$name start coding...");
   }
 }
 ```
