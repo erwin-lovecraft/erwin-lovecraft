@@ -17,7 +17,7 @@ class Person extends Developer {
   Person({
     this.name = "Dang Huu Loc",
     this.alias = "the-witcher-knight",
-    this.age = 23,
+    this.age = 25,
     this.interests = const [
       "Programming",
       "Mechanical Keyboard",
