@@ -36,7 +36,7 @@ class Person extends Developer {
   @override
   void code<T extends PC>(T thePC) {
     thePC.open();
-    print("$name start coding...");
+    print("$name starts coding...");
   }
 }
 ```
