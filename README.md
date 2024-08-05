@@ -25,11 +25,11 @@ class Person extends Developer {
       "New technologies",
     ],
     this.skills = const {
-      'Programming Language': ['Go', 'Java', 'JS/TS', 'Dart'],
-      'Framework': ['Flutter', 'SpringBoot', 'Next.js', 'Angular'],
-      'Database': ['Postgres', 'MySQL', 'MongoDB'],
-      'Platform': ['Docker', 'Azure', 'AWS', 'Kubernetes'],
-      'Tools': ['Git', 'Intellij IDEA', 'VS Code'],
+      'Programming Language': ['Go', 'JS/TS', 'Dart'],
+      'Framework': ['Flutter', 'Angular'],
+      'Database': ['Postgres', 'MySQL', 'MongoDB', 'Aerospike'],
+      'Platform': ['Docker', 'Kubernetes', 'AWS'],
+      'Tools': ['Git', 'Intellij IDEA', 'VS Code', 'Craft.do'],
     },
   });
 
