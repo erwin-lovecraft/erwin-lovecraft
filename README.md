@@ -6,39 +6,71 @@
 <a href="https://stackoverflow.com/users/14512647/loc-dang" target="_blank" rel="noopener noreferrer">![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white)
 </a>
 
-```dart
-class Person extends Developer {
-  String name;
-  String alias;
-  int age;
-  List<String> interests;
-  Map<String, List<String>> skills;
-  
-  Person({
-    this.name = "Dang Huu Loc",
-    this.alias = "the-witcher-knight",
-    this.age = 25,
-    this.interests = const [
+```typescript
+interface Developer<T extends TechStack> {
+  code<R>(project: Project<T>): Result<R>;
+  learnNewTech<N extends Technology>(tech: N): Developer<T & N>;
+}
+
+type TechStack = Record<string, Technology[]>;
+type Technology = string;
+type Project<T extends TechStack> = {
+  name: string;
+  requiredTech: T;
+};
+type Result<R> = Promise<R>;
+
+class Person<T extends TechStack> implements Developer<T> {
+  private readonly name: string;
+  private readonly age: number;
+  private readonly interests: string[];
+  private skills: T;
+
+  constructor() {
+    this.name = "Dang Huu Loc";
+    this.age = 25;
+    this.interests = [
       "Programming",
       "Mechanical Keyboard",
       "Workspace setting up",
       "New technologies",
-    ],
-    this.skills = const {
-      'Programming Language': ['Go', 'JS/TS', 'Dart'],
-      'Framework': ['Flutter', 'Angular'],
-      'Database': ['Postgres', 'MySQL', 'MongoDB', 'Aerospike'],
+    ];
+    
+    // Type-safe skill definition
+    this.skills = {
+      'Programming Language': ['Go', 'Java', 'JS/TS', 'Dart'],
+      'Framework': ['NestJS', 'Gin Gonic', 'Flutter'],
+      'Database': ['Postgres', 'MySQL', 'MongoDB', 'Redis', 'Timescale'],
       'Platform': ['Docker', 'Kubernetes', 'AWS'],
-      'Tools': ['Git', 'Intellij IDEA', 'VS Code', 'Craft.do'],
-    },
-  });
+      'Tools': ['Git', 'Intellij IDEA', 'VS Code', 'ChatGPT', 'Claude'],
+    } as T;
+  }
 
-  @override
-  void code<T extends PC>(T thePC) {
-    thePC.open();
-    print("$name starts coding...");
+  public code<R>(project: Project<T>): Result<R> {
+    console.log(`${this.name} is coding ${project.name}!`);
+    return new Promise<R>((resolve) => {
+      // Simulate coding process
+      setTimeout(() => {
+        resolve({} as R);
+      }, 1000);
+    });
+  }
+
+  public learnNewTech<N extends Technology>(tech: N): Developer<T & N> {
+    console.log(`${this.name} learned ${tech}!`);
+    return this as unknown as Developer<T & N>;
+  }
+
+  public getSkills(): T {
+    return this.skills;
   }
 }
+
+const me = new Person();
+me.code({ 
+    name: "Awesome Go Microservice", 
+    requiredTech: { 'Programming Language': ['Go', 'Typescript'] } 
+});
 ```
 
-\- 冥海无岸 -
+----
